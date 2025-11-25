@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ArcShield | Yeni Nesil Ebeveyn Kontrol Platformu</title>
+    <meta
+      name="description"
+      content="ArcShield; içerik filtreleme, limitler ve sahtecilik korumasını tek bir kontrol panelinde birleştiren ebeveyn kontrol platformudur."
+    />
+    <meta name="theme-color" content="#060a1b" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="anasayfa">
+      <nav class="nav container">
+        <a class="logo" href="#anasayfa" aria-label="ArcShield ana sayfa">
+          <span aria-hidden="true">⬡</span>
+          <span>ArcShield</span>
+        </a>
+        <div class="nav__links">
+          <a href="#ozellikler">Ürün</a>
+          <a href="#canli">Canlı Görüntüleme</a>
+          <a href="#planlar">Planlar</a>
+          <a href="#sss">SSS</a>
+        </div>
+        <div class="nav__actions">
+          <button class="ghost">Giriş Yap</button>
+          <button class="primary">Demo Talep Et</button>
+        </div>
+      </nav>
+      <div class="hero__content container">
+        <div class="hero__text">
+          <p class="eyebrow">Yeni nesil ebeveyn paneli</p>
+          <h1>Çocuklarınız için güvenli internet standart olsun</h1>
+          <p class="lead">
+            ArcShield; cihaz ve platform fark etmeksizin içerikleri tarar,
+            ekran süresini dengeler ve şüpheli aktiviteyi saniyeler içinde
+            size bildirir.
+          </p>
+          <div class="hero__actions">
+            <button class="primary primary--wide">Hemen Başlayın</button>
+            <button class="ghost ghost--icon">
+              <span aria-hidden="true">▶</span>
+              Ürünü izleyin
+            </button>
+          </div>
+          <div class="hero__metrics">
+            <div class="metric">
+              <p>Cihaz koruması</p>
+              <strong data-rolling-number="12480" data-suffix="">12.480</strong>
+              <span>aktif cihaz</span>
+            </div>
+            <div class="metric">
+              <p>Anlık uyarılar</p>
+              <strong data-rolling-number="38" data-suffix=" sn">38 sn</strong>
+              <span>ort. yanıt süresi</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual" aria-label="ArcShield canlı kontrol paneli">
+          <div class="visual__card visual__card--primary">
+            <div class="visual__header">
+              <p>Canlı Aktivite</p>
+              <span class="pill pill--success">Stabil</span>
+            </div>
+            <ul class="activity-list">
+              <li>
+                <div>
+                  <p>Nova • iPad</p>
+                  <span>Youtube Kids</span>
+                </div>
+                <p class="status status--good">Uygun içerik</p>
+              </li>
+              <li>
+                <div>
+                  <p>Deniz • Chromebook</p>
+                  <span>Reddit</span>
+                </div>
+                <p class="status status--warn">Filtrelendi</p>
+              </li>
+              <li>
+                <div>
+                  <p>Mert • Android</p>
+                  <span>Yeni uygulama</span>
+                </div>
+                <p class="status status--info">İzin bekliyor</p>
+              </li>
+            </ul>
+          </div>
+          <div class="visual__card visual__card--secondary">
+            <p>Haftalık limit</p>
+            <strong>07sa 45dk</strong>
+            <span>hedef: 08sa 00dk</span>
+            <div class="progress">
+              <span style="width: 78%"></span>
+            </div>
+          </div>
+          <div class="visual__badge">
+            <p>Anlık AI taraması</p>
+            <strong>+932 içerik</strong>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section partners container" aria-label="Referanslar">
+        <p>ArcShield güvenilir ekipler tarafından tercih edilir</p>
+        <div class="partners__row">
+          <span>EduCore</span>
+          <span>BrightNet</span>
+          <span>FamilyLab</span>
+          <span>SafeWave</span>
+          <span>Northlight</span>
+        </div>
+      </section>
+
+      <section class="section features" id="ozellikler">
+        <div class="section__header">
+          <p class="eyebrow">Modüler mimari</p>
+          <h2>Her aile için hazır bloklar</h2>
+          <p>
+            Dinamik filtre motoru, zaman yönetimi ve lokasyon katmanı tek panelde
+            birleşir; hangi cihaz olursa olsun eşleşen kurallar uygulanır.
+          </p>
+        </div>
+        <div class="feature-grid container">
+          <article class="feature-card">
+            <div class="feature-card__icon">⚡</div>
+            <h3>Anlık tarama</h3>
+            <p>
+              İçerikler açılmadan önce yapay zekâ ile taranır, uygunsuz bulunan
+              bağlantılar saniyeler içinde karantinaya alınır.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__icon">🛰️</div>
+            <h3>Çok katmanlı filtre</h3>
+            <p>
+              DNS, tarayıcı ve uygulama katmanında yapılan eşleşmelerle çocukların
+              farklı ağlarda bile korunmasını sağlar.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__icon">🕒</div>
+            <h3>Zaman koridorları</h3>
+            <p>
+              Ders, oyun ve uyku blokları oluşturun; kurallar cihazlara otomatik
+              yayılır ve takvimle senkron kalır.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__icon">🛰</div>
+            <h3>Konum güvenliği</h3>
+            <p>
+              Geofencing ile belirlenen alan dışındaki aktiviteler uyarı veya
+              kilitleme tetikler.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section live" id="canli">
+        <div class="container live__grid">
+          <div>
+            <p class="eyebrow">LivePulse görünümü</p>
+            <h2>Anomali dalgalarını anında yakalayın</h2>
+            <p>
+              Aktivite kartları cihazlardan gerçek zamanlı veri akışı alır ve
+              tehlikeli olası davranışları katmanlı puanlama sistemi ile
+              önceliklendirir.
+            </p>
+            <ul class="checked-list">
+              <li>Davranışsal bazda otomatik öğrenen eşikler</li>
+              <li>Bildirimleri WhatsApp, SMS veya e-posta ile iletme</li>
+              <li>Rol bazlı erişim ile bakıcı ve öğretmen davetleri</li>
+            </ul>
+          </div>
+          <div class="timeline" aria-label="Canlı zaman çizelgesi">
+            <div class="timeline__item">
+              <div>
+                <p class="timeline__title">Uygulama talebi</p>
+                <span>Nova • Switch</span>
+              </div>
+              <strong>09:12</strong>
+            </div>
+            <div class="timeline__item timeline__item--alert">
+              <div>
+                <p class="timeline__title">Şüpheli içerik engellendi</p>
+                <span>Deniz • Chromebook</span>
+              </div>
+              <strong>09:18</strong>
+            </div>
+            <div class="timeline__item timeline__item--info">
+              <div>
+                <p class="timeline__title">Uyku modu planlandı</p>
+                <span>Atlas • Android</span>
+              </div>
+              <strong>09:32</strong>
+            </div>
+            <div class="timeline__item">
+              <div>
+                <p class="timeline__title">Lokasyon değişikliği</p>
+                <span>Oyun konsolu</span>
+              </div>
+              <strong>09:40</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section builder" id="kural">
+        <div class="container builder__grid">
+          <div>
+            <p class="eyebrow">Akıllı kural motoru</p>
+            <h2>Tek tıkla aile profilleri</h2>
+            <p>
+              Şablonları sürükleyip bırakarak ders, sosyal ve uyku klavuzlarını
+              oluşturun. ArcShield kuralları tüm cihazlara otomatik yayınlar.
+            </p>
+            <form id="ruleForm" class="rule-form">
+              <label for="ruleName">Profil adı</label>
+              <input
+                id="ruleName"
+                name="ruleName"
+                placeholder="Örn: Hafta içi okul modu"
+                required
+              />
+              <label for="ruleDevice">Hedef cihaz</label>
+              <select id="ruleDevice" name="ruleDevice">
+                <option>iOS • Nova</option>
+                <option>Android • Atlas</option>
+                <option>Chromebook • Deniz</option>
+              </select>
+              <label for="bedtime">Uyku saati</label>
+              <div class="range-field">
+                <input
+                  type="range"
+                  id="bedtime"
+                  name="bedtime"
+                  min="18"
+                  max="24"
+                  step="0.25"
+                  value="21"
+                  aria-describedby="bedtimeValue"
+                />
+                <output id="bedtimeValue">21:00</output>
+              </div>
+              <button class="primary primary--wide" type="submit">
+                Kuralı kaydet
+              </button>
+            </form>
+          </div>
+          <div>
+            <p class="eyebrow">Aktif kurallar</p>
+            <ul class="rule-list" data-rule-list>
+              <li>
+                <div>
+                  <strong>Hafta içi okul modu</strong>
+                  <span>Nova • iPad</span>
+                </div>
+                <span>Uyku: 21:00</span>
+              </li>
+              <li>
+                <div>
+                  <strong>Hafta sonu esnek</strong>
+                  <span>Atlas • Android</span>
+                </div>
+                <span>Uyku: 22:30</span>
+              </li>
+            </ul>
+            <div class="toggle-stack">
+              <div class="toggle" data-toggle>
+                <div>
+                  <p>Güvenli arama</p>
+                  <span>Youtube, Google ve Bing</span>
+                </div>
+                <button type="button" aria-pressed="true">Açık</button>
+              </div>
+              <div class="toggle" data-toggle>
+                <div>
+                  <p>Reklam takibi kilidi</p>
+                  <span>Davranışsal izlemeyi kapat</span>
+                </div>
+                <button type="button" aria-pressed="true">Açık</button>
+              </div>
+              <div class="toggle toggle--off" data-toggle>
+                <div>
+                  <p>Oyun modu</p>
+                  <span>Hafta sonu 2 saat</span>
+                </div>
+                <button type="button" aria-pressed="false">Kapalı</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section insights" id="raporlar">
+        <div class="container insights__grid">
+          <div>
+            <p class="eyebrow">Insight panosu</p>
+            <h2>Raporlarınızı tek dokunuşla paylaşın</h2>
+            <p>
+              Öğretmenlerle paylaşılan raporlar PDF ve canlı bağlantı olarak
+              gönderilebilir. Zaman serileri, içerik trendleri ve uygulama
+              dağılımı tek bakışta görünür.
+            </p>
+          </div>
+          <div class="insight-card">
+            <div class="insight-card__row">
+              <p>Video içerik sınıflandırması</p>
+              <span>%74 güvenli</span>
+            </div>
+            <div class="bar">
+              <span style="width: 74%"></span>
+            </div>
+            <div class="insight-card__row">
+              <p>Sosyal medya süresi</p>
+              <span>1sa 30dk</span>
+            </div>
+            <div class="bar bar--accent">
+              <span style="width: 45%"></span>
+            </div>
+            <div class="insight-card__row">
+              <p>Yeni cihaz uyarıları</p>
+              <span>2 / hafta</span>
+            </div>
+            <div class="badge-group">
+              <span class="pill">PDF</span>
+              <span class="pill">CSV</span>
+              <span class="pill pill--success">API</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pricing" id="planlar">
+        <div class="section__header">
+          <p class="eyebrow">Basit fiyatlandırma</p>
+          <h2>Her büyüklükte aileye göre planlar</h2>
+        </div>
+        <div class="container pricing__grid">
+          <article class="pricing-card">
+            <p class="eyebrow">Starter</p>
+            <h3>Aile</h3>
+            <p class="price">₺189<span>/ay</span></p>
+            <ul>
+              <li>5 cihaz</li>
+              <li>AI içerik tarama</li>
+              <li>Haftalık rapor</li>
+            </ul>
+            <button class="ghost">Başlayın</button>
+          </article>
+          <article class="pricing-card pricing-card--highlight">
+            <p class="eyebrow">Popüler</p>
+            <h3>Growth</h3>
+            <p class="price">₺329<span>/ay</span></p>
+            <ul>
+              <li>10 cihaz</li>
+              <li>LivePulse uyarıları</li>
+              <li>Sınırsız kural</li>
+            </ul>
+            <button class="primary primary--wide">14 gün ücretsiz</button>
+          </article>
+          <article class="pricing-card">
+            <p class="eyebrow">Topluluk</p>
+            <h3>Care+</h3>
+            <p class="price">Özel</p>
+            <ul>
+              <li>Sınırsız cihaz</li>
+              <li>Çoklu yönetici</li>
+              <li>Özel SLA</li>
+            </ul>
+            <button class="ghost">Satış ile görüş</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section testimonials" id="referanslar">
+        <div class="container testimonial__grid">
+          <article>
+            <p>
+              “ArcShield sayesinde ekran süresi krizi yaşamıyoruz. Okulda ve evde
+              aynı kurallar geçerli olduğu için çocuklar da hızla alıştı.”
+            </p>
+            <span>Elif • İki çocuk annesi</span>
+          </article>
+          <article>
+            <p>
+              “Velilerle haftalık rapor paylaşmak artık tek tık. Öğrencilerimin
+              dijital alışkanlıkları üzerine somut veriye sahibim.”
+            </p>
+            <span>Barış • Rehber öğretmen</span>
+          </article>
+          <article>
+            <p>
+              “Lokasyon tabanlı uyarılar ile çocuğum okuldan çıkarken anında
+              haber alıyorum ve güvenlik hissi katlandı.”
+            </p>
+            <span>Selin • Çalışan ebeveyn</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section faq" id="sss">
+        <div class="container faq__grid">
+          <div>
+            <p class="eyebrow">SSS</p>
+            <h2>Merak ettikleriniz</h2>
+          </div>
+          <div class="faq__items">
+            <article class="faq__item">
+              <button type="button" aria-expanded="false">
+                ArcShield hangi cihazları destekliyor?
+              </button>
+              <div class="faq__content">
+                iOS, Android, Windows, macOS, Chromebook ve oyun konsolları dahil
+                olmak üzere 12 farklı platformda koruma sunuyoruz.
+              </div>
+            </article>
+            <article class="faq__item">
+              <button type="button" aria-expanded="false">
+                Verilerim nerede saklanıyor?
+              </button>
+              <div class="faq__content">
+                Veriler Avrupa Birliği sınırları içinde ISO27001 sertifikalı
+                veri merkezlerinde şifreli biçimde saklanır.
+              </div>
+            </article>
+            <article class="faq__item">
+              <button type="button" aria-expanded="false">
+                Kurulum ne kadar sürer?
+              </button>
+              <div class="faq__content">
+                Ortalama 7 dakikada cihaz başına kurulum tamamlanır. QR kodlu
+                onboarding ve uzaktan yardım seçeneğimiz mevcut.
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta">
+        <div class="container cta__content">
+          <div>
+            <p class="eyebrow">Hazır paketler</p>
+            <h2>Dijital refahı birlikte inşa edelim</h2>
+            <p>
+              14 günlük deneme sürecinde canlı destek ekibimizle beraber tüm
+              kuralları kuruyor, raporlarınızı kişiselleştiriyoruz.
+            </p>
+          </div>
+          <button class="primary primary--wide">Danışmanla konuş</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <a class="logo" href="#anasayfa">
+          <span aria-hidden="true">⬡</span>
+          <span>ArcShield</span>
+        </a>
+        <p>ⓒ 2025 ArcShield. Tüm hakları saklıdır.</p>
+        <div class="footer__links">
+          <a href="#planlar">Planlar</a>
+          <a href="#referanslar">Referanslar</a>
+          <a href="#sss">Destek</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
